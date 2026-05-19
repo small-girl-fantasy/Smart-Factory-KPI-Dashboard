@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-[Open the Streamlit Dashboard]([https://smart-factory-kpi-dashboard-xo9befc2kgyh38jqtwxrtb.streamlit.app)
+[Open the Streamlit Dashboard]([https://smart-factory-kpi-dashboard-xo9befc2kgyh38jqtwxrtb.streamlit.app/)
 
 ## 1. Project Overview
 
