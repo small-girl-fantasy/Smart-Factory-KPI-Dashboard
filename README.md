@@ -1,5 +1,9 @@
 # Smart Factory KPI Monitoring and Reporting Automation System
 
+## Live Demo
+
+[Open the Streamlit Dashboard]([https://smart-factory-kpi-dashboard-xo9befc2kgyh38jqtwxrtb.streamlit.app/])
+))
 ## 1. Project Overview
 
 This project is a simulated smart factory analytics and reporting automation system designed to monitor manufacturing performance using MES-style production data.
