@@ -375,6 +375,35 @@ The automated report uses simple threshold-based alert rules.
 
 If no alert condition is triggered, the report status is shown as:
 
+##  SQL Analysis Layer
+
+This project includes a SQLite-based SQL analysis layer to demonstrate manufacturing data extraction, KPI aggregation, downtime analysis, defect analysis, and data quality validation.
+
+The script `load_excel_to_sqlite.py` converts the simulated MES Excel dataset into a local SQLite database named `smart_factory.db`.
+
+The file `smart_factory_sql_queries.sql` contains SQL queries for:
+
+- Overall factory KPI summary
+- Daily production summary
+- OEE by production line
+- OEE by machine
+- Downtime minutes by reason
+- Worst machines by downtime
+- Downtime by line and shift
+- Defect count by product type
+- Defect count by defect type
+- Defect count by process stage
+- Yield by product type
+- Yield by shift
+- Monthly production trend
+- High-risk production record identification
+- Data quality validation checks
+
+To generate the SQLite database locally, run:
+
+```bash
+python load_excel_to_sqlite.py
+
 ```text
 Normal
 ```
